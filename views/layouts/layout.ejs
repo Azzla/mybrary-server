@@ -4,11 +4,9 @@
 	<meta charset="utf-8">
 	<title>Mybrary</title>
 </head>
-<body>
-	Before
-	<br>
-	<%- body %>
-	<br>
-	After
-</body>
+	<body>
+		<%- include('../partials/header.ejs') %>
+		<%- include('../partials/errorMessage.ejs') %>
+		<%- body %>
+	</body>
 </html>
